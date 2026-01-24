@@ -14,7 +14,7 @@ Build a simple ETL pipeline using Python and Pandas to clean raw retail sales da
 
 1. Extract raw CSV file
 2. Clean missing values
-3. Standardize column names
+3. Standardise column names
 4. Create revenue metric
 5. Export cleaned dataset
 
