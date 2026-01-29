@@ -21,3 +21,8 @@ Build a simple ETL pipeline using Python and Pandas to clean raw retail sales da
 ## Status
 
 🚧 In Progress
+
+### Day 1: Python Fundamentals
+- Refreshed Python basics: variables, lists, dictionaries
+- Built small scripts to calculate sales metrics
+- Prepared environment for ETL projects
