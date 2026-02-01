@@ -26,3 +26,27 @@ Build a simple ETL pipeline using Python and Pandas to clean raw retail sales da
 - Refreshed Python basics: variables, lists, dictionaries
 - Built small scripts to calculate sales metrics
 - Prepared environment for ETL projects
+
+### Day 2 — Data Ingestion with Pandas
+
+Objective: Load and explore a real retail dataset.
+
+What I did:
+
+Loaded Superstore CSV dataset using Pandas
+
+Handled encoding issues during ingestion
+
+Explored dataset structure using head(), info(), and describe()
+
+Identified data types and columns for transformation stage
+
+Skills Practiced:
+
+Pandas DataFrames
+
+CSV ingestion
+
+Encoding handling
+
+Data profiling
