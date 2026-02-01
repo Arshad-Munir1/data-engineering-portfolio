@@ -50,3 +50,10 @@ CSV ingestion
 Encoding handling
 
 Data profiling
+
+## Day 3 - ETL Transform Layer
+Cleaned and standardized column names
+Converted `order_date` and `ship_date` to datetime
+Created `profit_margin` metric
+Rounded numeric financial columns
+Saved cleaned dataset for downstream use
