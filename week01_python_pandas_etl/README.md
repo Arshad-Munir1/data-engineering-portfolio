@@ -57,3 +57,13 @@ Converted `order_date` and `ship_date` to datetime
 Created `profit_margin` metric
 Rounded numeric financial columns
 Saved cleaned dataset for downstream use
+
+## Day 4 - Aggregation & Analytics Layer
+- Aggregated sales and profit by region
+- Generated category-level performance summaries
+- Created monthly sales and profit trends
+- Validated data and sanity-checked outputs in Excel
+
+- Learned to turn raw rows into business-ready insights
+- Practiced idempotent pipeline patterns
+- Understood the importance of data validation

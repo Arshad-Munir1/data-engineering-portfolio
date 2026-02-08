@@ -1,4 +1,4 @@
-import pandas as pd
+import pandas as pd                               # type: ignore
 
 #Load dataset
 file_path = "../data/superstore_raw.csv"
