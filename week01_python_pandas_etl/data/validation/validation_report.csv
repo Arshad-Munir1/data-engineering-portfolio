@@ -1,0 +1,7 @@
+dataset,check,result
+region_summary,missing_values,0
+region_summary,duplicates,0
+category_summary,missing_values,0
+category_summary,duplicates,0
+monthly_summary,missing_values,0
+monthly_summary,duplicates,0

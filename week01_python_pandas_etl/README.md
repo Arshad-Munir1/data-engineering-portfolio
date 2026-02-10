@@ -67,3 +67,17 @@ Saved cleaned dataset for downstream use
 - Learned to turn raw rows into business-ready insights
 - Practiced idempotent pipeline patterns
 - Understood the importance of data validation
+
+## Day 5 - Data Quality & Validation
+
+Loaded aggregated outputs from the analytics layer
+Performed data quality checks using Pandas:
+Missing value detection
+Duplicate record checks
+Data type validation
+Validated aggregated results against business expectations
+Generated a validation CSV to support repeatable quality checks
+Used terminal-based inspection to confirm pipeline correctness
+Learned the importance of validating data before trusting outputs
+Understood why validation should be a separate pipeline stage
+Built confidence in the reliability of aggregated datasets
