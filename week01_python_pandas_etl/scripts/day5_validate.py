@@ -11,31 +11,33 @@ category_summary = pd.read_csv("../data/aggregates/sales_by_category.csv")
 monthly_summary = pd.read_csv("../data/aggregates/monthly_performance.csv")
 
 # Create validation report
-checks = []
+validation_results = []
 
-def run_checks(df, name):
-    checks.append({
+def validate_dataset(df, name):
+
+    missing = df.isnull().sum().sum()
+    duplicates = df.duplicated().sum()
+
+    validation_results.append({
         "dataset": name,
-        "check": "missing_values",
-        "result": df.isnull().sum().sum()
-    })
-    checks.append({
-        "dataset": name,
-        "check": "duplicates",
-        "result": df.duplicated().sum()
+        "missing_values": missing,
+        "duplicates": duplicates
     })
 
-run_checks(region_summary, "region_summary")
-run_checks(category_summary, "category_summary")
-run_checks(monthly_summary, "monthly_summary")
+    # Hard stops
+    assert missing == 0, f"{name} contains missing values"
+    assert duplicates == 0, f"{name} contains duplicates"
 
-validation_report = pd.DataFrame(checks)
+    print(f"{name} passed validation ✅")
 
-# Save validation report
-validation_report.to_csv(
-    "../data/validation/validation_report.csv",
-    index=False
-)
 
-print("Validation report saved successfully")
-print(validation_report)
+validate_dataset(region_summary, "Region Summary")
+validate_dataset(category_summary, "Category Summary")
+validate_dataset(monthly_summary, "Monthly Summary")
+
+# Save report
+report_df = pd.DataFrame(validation_results)
+report_df.to_csv("../data/validation/validation_report.csv", index=False)
+
+print("Validation report saved.")
+print("All datasets passed validation 🎉")
