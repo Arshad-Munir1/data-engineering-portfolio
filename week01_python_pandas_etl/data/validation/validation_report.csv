@@ -1,4 +1,4 @@
-dataset,missing_values,duplicates
-Region Summary,0,0
-Category Summary,0,0
-Monthly Summary,0,0
+dataset,missing_values,duplicate_rows,status
+Region Summary,0,0,Pass
+Category Summary,0,0,Pass
+Monthly Summary,0,0,Pass

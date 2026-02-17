@@ -1,0 +1,29 @@
+2026-02-17 07:13:30,351 - INFO - Validating Region Summary
+2026-02-17 07:13:30,351 - INFO - Region Summary passed validation
+2026-02-17 07:13:30,351 - INFO - Validating Category Summary
+2026-02-17 07:13:30,351 - INFO - Category Summary passed validation
+2026-02-17 07:13:30,351 - INFO - Validating Monthly Summary
+2026-02-17 07:13:30,351 - INFO - Monthly Summary passed validation
+2026-02-17 07:13:30,367 - INFO - Validation started
+2026-02-17 07:13:30,367 - INFO - Dataset passed validation
+2026-02-17 07:13:30,367 - INFO - All datasets passed validation successfully
+2026-02-17 07:18:21,539 - INFO - Pipeline validation started
+2026-02-17 07:18:21,539 - INFO - Validating Region Summary
+2026-02-17 07:18:21,539 - INFO - Region Summary passed validation
+2026-02-17 07:18:21,539 - INFO - Validating Category Summary
+2026-02-17 07:18:21,539 - INFO - Category Summary passed validation
+2026-02-17 07:18:21,544 - INFO - Validating Monthly Summary
+2026-02-17 07:18:21,544 - INFO - Monthly Summary passed validation
+2026-02-17 07:18:21,544 - INFO - All datasets passed validation successfully
+2026-02-17 07:18:21,546 - INFO - Validation started
+2026-02-17 07:18:21,546 - INFO - Dataset passed validation
+2026-02-17 07:18:21,546 - INFO - All datasets passed validation successfully
+2026-02-17 07:25:40,382 - INFO - Starting validation step
+2026-02-17 07:25:40,398 - INFO - All files loaded successfully
+2026-02-17 07:25:40,398 - INFO - Validating Region Summary
+2026-02-17 07:25:40,398 - INFO - Region Summary passed validation
+2026-02-17 07:25:40,398 - INFO - Validating Category Summary
+2026-02-17 07:25:40,398 - INFO - Category Summary passed validation
+2026-02-17 07:25:40,398 - INFO - Validating Monthly Summary
+2026-02-17 07:25:40,398 - INFO - Monthly Summary passed validation
+2026-02-17 07:25:40,415 - INFO - Validation process completed

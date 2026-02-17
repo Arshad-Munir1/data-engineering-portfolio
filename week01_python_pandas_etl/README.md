@@ -81,3 +81,72 @@ Used terminal-based inspection to confirm pipeline correctness
 Learned the importance of validating data before trusting outputs
 Understood why validation should be a separate pipeline stage
 Built confidence in the reliability of aggregated datasets
+
+## Day 6 - Assertion-Based Data Quality Enforcement
+
+Upgraded validation logic to include assertion-based checks
+
+Implemented hard stops to prevent the pipeline from continuing when data quality issues are detected
+
+Added automated checks for:
+
+Missing values
+
+Duplicate records
+
+Invalid numeric values
+
+Generated a validation CSV report to create an audit trail of data quality results
+
+Ensured the pipeline fails loudly instead of silently when assumptions are violated
+
+Learned the difference between validating data and enforcing data quality
+
+Practiced defensive programming principles in data pipelines
+
+Understood how assertions improve reliability and trust in automated workflows
+
+## Day 7 — Data Validation Logging & Error Handling
+## Part 1 - Pipeline Logging Setup
+
+Today focused on making the data pipeline more production-ready by introducing structured logging.
+
+What I implemented:
+
+Added Python logging module to track pipeline activity
+
+Configured log file output (pipeline.log)
+
+Created automatic log directory using os.makedirs
+
+Logged key pipeline events such as:
+
+Start of validation process
+
+File loading status
+
+Dataset validation results
+
+Error messages
+
+Key Learning:
+
+Instead of relying on terminal prints, real data pipelines use persistent log files so engineers can monitor, debug, and audit pipeline runs.
+
+## Part 2 — Error Handling & Robust File Loading
+
+This step focused on making the pipeline resilient to failures.
+
+What I implemented:
+
+Wrapped data loading inside try/except blocks
+
+Handled common pipeline errors:
+
+Missing file paths
+
+Unexpected runtime exceptions
+
+Logged failures clearly instead of crashing silently
+
+Ensured pipeline continues safely even if an error occurs
