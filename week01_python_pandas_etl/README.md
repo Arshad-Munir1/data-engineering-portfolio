@@ -150,3 +150,47 @@ Unexpected runtime exceptions
 Logged failures clearly instead of crashing silently
 
 Ensured pipeline continues safely even if an error occurs
+
+## Day 8 — Modular ETL Pipeline Architecture
+
+Today I refactored the project from individual scripts into a fully structured ETL pipeline using modular functions and professional engineering practices.
+
+What I Built
+
+Created a modular pipeline with separate layers:
+
+Extract → Load cleaned source data
+
+Transform → Generate aggregated business summaries
+
+Load → Save outputs to structured folders
+
+Validate → Ensure no missing values or duplicates
+
+Engineering Concepts Learned
+
+Function-based pipeline design
+
+Separation of ETL responsibilities
+
+Logging pipeline execution
+
+Error handling with try/except blocks
+
+Runtime tracking for performance monitoring
+
+Outputs Generated
+
+The pipeline automatically produces:
+
+sales_by_region.csv
+
+sales_by_category.csv
+
+monthly_performance.csv
+
+pipeline.log (execution tracking)
+
+Key Learning
+
+This was my first experience building a production-style data pipeline structure rather than a single analysis script.
