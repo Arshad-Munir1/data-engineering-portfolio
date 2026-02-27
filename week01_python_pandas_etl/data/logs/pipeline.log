@@ -42,3 +42,12 @@
 2026-02-22 16:10:40,982 - INFO - Data saved successfully
 2026-02-22 16:10:40,982 - INFO - Pipeline completed successfully
 2026-02-22 16:10:40,982 - INFO - Pipeline runtime: 0:00:00.087556
+2026-02-27 19:14:23,254 - INFO - Starting validation step
+2026-02-27 19:14:23,254 - INFO - All files loaded successfully
+2026-02-27 19:14:23,254 - INFO - Validating Region Summary
+2026-02-27 19:14:23,254 - INFO - Region Summary passed validation
+2026-02-27 19:14:23,254 - INFO - Validating Category Summary
+2026-02-27 19:14:23,254 - INFO - Category Summary passed validation
+2026-02-27 19:14:23,270 - INFO - Validating Monthly Summary
+2026-02-27 19:14:23,270 - INFO - Monthly Summary passed validation
+2026-02-27 19:14:23,270 - INFO - Validation process completed

@@ -194,3 +194,38 @@ pipeline.log (execution tracking)
 Key Learning
 
 This was my first experience building a production-style data pipeline structure rather than a single analysis script.
+
+## Day 9 — Pipeline Orchestration & Automation
+
+Today I introduced a pipeline runner script to automate execution of the entire ETL workflow.
+
+Instead of manually running each step (transform → aggregate → validate), I created a single orchestration script that executes all pipeline stages sequentially.
+
+What I Implemented
+
+Built a day9_runner.py script
+
+Used subprocess to execute pipeline steps automatically
+
+Logged execution status and runtime for each stage
+
+Created a separate pipeline_runner.log file for monitoring
+
+Key Learning
+
+This was my first step into pipeline orchestration, which is how production systems coordinate multiple data processing steps.
+
+I learned:
+
+How to automate multi-step workflows
+
+How to track execution time for performance monitoring
+
+How failures in one step should stop the pipeline
+
+Why orchestration tools (like Airflow) are essential in real-world systems
+
+Insight from Execution Logs
+
+The transform step took the longest (~5 seconds), while aggregation and validation completed in under a second.
+This reinforced how data volume and processing intensity impact runtime.
